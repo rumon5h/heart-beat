@@ -13,3 +13,17 @@ body {
     color: white;
     border-image: linear-gradient(to bottom, red, rgba(0, 0, 0, 0))1 100%;
 }
+
+.heart{
+    font-size: 100px;
+    color: #e00;
+    margin: 50px;
+    transform-origin: center;
+    animation: beat .30s infinite alternate;
+}
+
+@keyframes beat {
+to{
+transform: scale(1.4);
+}
+}
